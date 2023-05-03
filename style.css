@@ -1,0 +1,27 @@
+body{
+background-color: gray;
+margin: 0px;
+}
+
+.wrapper{
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+    background-color: rgb(5, 42, 109);
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: wrap;
+   }
+ 
+   .square{
+    width: 120px;
+    height: 120px;
+    background: black;
+    margin: 6.5px;
+    font-size: 108px;
+    font-family: sans-serif;
+    text-align: center;
+    color: red;
+    cursor: pointer;
+    border-radius: 60px;
+   }
